@@ -15,9 +15,7 @@ $('.ham').click(function() {
 
 
 
-
-
-$('.headings-text-2').hover(function () { 
+$('.headings-text-2').click(function () { 
     $('.welcome-paragraph-2').stop().slideToggle();
  })
 
